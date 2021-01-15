@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6/10/2020, 09:03:52 PM
+    Author     : Emmanuel
+*/
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.cuerpoFormulario{
+    margin: 20px 30%;
+    color:black;
+}
+
+.formularioLogin{
+    padding: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+
+    /*colores de fondo*/
+    background: rgba(183,222,237,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(113,206,239,1) 31%, rgba(33,180,226,1) 67%, rgba(33,180,226,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(183,222,237,1)), color-stop(7%, rgba(183,222,237,1)), color-stop(31%, rgba(113,206,239,1)), color-stop(67%, rgba(33,180,226,1)), color-stop(100%, rgba(33,180,226,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(113,206,239,1) 31%, rgba(33,180,226,1) 67%, rgba(33,180,226,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(113,206,239,1) 31%, rgba(33,180,226,1) 67%, rgba(33,180,226,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(113,206,239,1) 31%, rgba(33,180,226,1) 67%, rgba(33,180,226,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(113,206,239,1) 31%, rgba(33,180,226,1) 67%, rgba(33,180,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#21b4e2', GradientType=1 );
+}
+
+
+.btn{
+    margin: 0px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    background-color: white;
+    transition: all .5s;
+}
+
+
+.btn:hover{
+    transition: all .5s;
+    border-color: black;
+    transform: translate(0px, -10px);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 4px white;
+}
+
+.txt{
+    border-radius: 10px;
+    font-size: 20px;
+}
+
